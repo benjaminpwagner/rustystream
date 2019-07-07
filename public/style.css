@@ -111,7 +111,7 @@ form div {
   justify-items: center;
   align-content: center;
   align-items: center;
-  height: 800px;
+  height: 80vh;
 }
 
 #home-mission-statement {
@@ -120,7 +120,7 @@ form div {
   color: rgb(15, 44, 61);
   background-color: rgba(67, 151, 200, 0.698);
   border: solid 1px black;
-  /* border-radius: 10px; */
+  border-radius: 4px;
   width: 75vw;
   padding: 50px;
   /* margin: 5px; */
@@ -167,11 +167,17 @@ form div {
   justify-self: flex-end;
   color: rgb(14, 11, 47);
   background-color: rgba(184, 42, 42, 0.883);
+  transition: background-color 1s;
   border: solid 1px black;
   border-radius: 5px;
   width: 300px;
   padding: 10px;
   font-size: 30px;
+}
+
+#server-button:hover {
+  cursor: pointer;
+  background-color: rgba(206, 87, 40, 0.883);
 }
 
 #rust-logo {
