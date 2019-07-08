@@ -15,8 +15,8 @@ const Donate = () => (
             <div>2 supply signals/week</div>
             <div>1,000 high quality/week</div>
             <div>1 M249</div>
-            <div>1 LR300</div>
-            <div>1 SPAS12</div>
+            <div>1 LR-300</div>
+            <div>1 Spas-12</div>
             <div>500 scrap</div>
             <div>In-game title</div>
             <div>Discord title</div>
@@ -44,8 +44,8 @@ const Donate = () => (
             <div>4 supply signals/week</div>
             <div>2,500 high quality/week</div>
             <div>2 M249</div>
-            <div>2 LR300</div>
-            <div>2 SPAS12</div>
+            <div>2 LR-300</div>
+            <div>2 Spas-12</div>
             <div>1,000 scrap</div>
             <div>In-game title</div>
             <div>Discord title</div>
@@ -73,9 +73,10 @@ const Donate = () => (
             <div>6 supply signals/week</div>
             <div>5,000 high quality/week</div>
             <div>3 M249</div>
-            <div>3 LR300</div>
-            <div>4 SPAS12</div>
+            <div>3 LR-300</div>
+            <div>4 Spas-12</div>
             <div>2,000 scrap</div>
+            <div>32 explosive rifle rounds</div>
             <div>In-game title</div>
             <div>Discord title</div>
           </div>
@@ -102,9 +103,10 @@ const Donate = () => (
             <div>8 supply signals/week</div>
             <div>10,000 high quality/week</div>
             <div>5 M249</div>
-            <div>5 LR300</div>
-            <div>5 SPAS12</div>
+            <div>5 LR-300</div>
+            <div>5 Spas-12</div>
             <div>5,000 scrap</div>
+            <div>64 explosive rifle rounds</div>
             <div>In-game title</div>
             <div>Discord title</div>
           </div>

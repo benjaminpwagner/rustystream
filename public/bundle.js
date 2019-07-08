@@ -146,7 +146,7 @@ var Donate = function Donate() {
     className: "usd-text"
   }, "10")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "donate-package-rewards"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "2 supply signals/week"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "1,000 high quality/week"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "1 M249"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "1 LR300"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "1 SPAS12"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "500 scrap"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "In-game title"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "Discord title"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "2 supply signals/week"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "1,000 high quality/week"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "1 M249"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "1 LR-300"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "1 Spas-12"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "500 scrap"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "In-game title"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "Discord title"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "donate-buttons"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "https://www.paypalobjects.com/webstatic/mktg/logo/pp_cc_mark_37x23.jpg"
@@ -190,7 +190,7 @@ var Donate = function Donate() {
     className: "usd-text"
   }, "25")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "donate-package-rewards"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "4 supply signals/week"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "2,500 high quality/week"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "2 M249"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "2 LR300"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "2 SPAS12"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "1,000 scrap"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "In-game title"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "Discord title"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "4 supply signals/week"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "2,500 high quality/week"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "2 M249"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "2 LR-300"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "2 Spas-12"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "1,000 scrap"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "In-game title"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "Discord title"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "donate-buttons"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "https://www.paypalobjects.com/webstatic/mktg/logo/pp_cc_mark_37x23.jpg"
@@ -234,7 +234,7 @@ var Donate = function Donate() {
     className: "usd-text"
   }, "50")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "donate-package-rewards"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "6 supply signals/week"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "5,000 high quality/week"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "3 M249"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "3 LR300"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "4 SPAS12"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "2,000 scrap"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "In-game title"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "Discord title"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "6 supply signals/week"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "5,000 high quality/week"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "3 M249"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "3 LR-300"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "4 Spas-12"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "2,000 scrap"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "32 explosive rifle rounds"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "In-game title"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "Discord title"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "donate-buttons"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "https://www.paypalobjects.com/webstatic/mktg/logo/pp_cc_mark_37x23.jpg"
@@ -278,7 +278,7 @@ var Donate = function Donate() {
     className: "usd-text"
   }, "100")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "donate-package-rewards"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "8 supply signals/week"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "10,000 high quality/week"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "5 M249"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "5 LR300"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "5 SPAS12"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "5,000 scrap"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "In-game title"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "Discord title"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "8 supply signals/week"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "10,000 high quality/week"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "5 M249"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "5 LR-300"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "5 Spas-12"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "5,000 scrap"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "64 explosive rifle rounds"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "In-game title"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "Discord title"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "donate-buttons"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "https://www.paypalobjects.com/webstatic/mktg/logo/pp_cc_mark_37x23.jpg"
@@ -445,8 +445,9 @@ var Navbar = function Navbar(_ref) {
     src: "discord.png"
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     id: "donate-button",
-    onClick: function onClick() {// setDonate(true)
-      // history.push('/donate')
+    onClick: function onClick() {
+      setDonate(true);
+      history.push('/donate');
     }
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     id: "donate-logo",
