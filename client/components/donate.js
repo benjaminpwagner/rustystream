@@ -2,14 +2,14 @@ import React from 'react'
 
 const Donate = () => (
   <div id="donate-container">
-    <div id='main-donate'>
-      <div className='donate-package'>
-        <div className='donate-package-header'>Donor</div>
-        <div className='usd'>
-          <img className='usd-symbol' src='usd.png' />
-          <div className='usd-text'>10</div>
+    <div id="main-donate">
+      <div className="donate-package">
+        <div className="donate-package-header">Donor</div>
+        <div className="usd">
+          <img className="usd-symbol" src="usd.png" />
+          <div className="usd-text">10</div>
         </div>
-        <div className='donate-package-rewards'>
+        <div className="donate-package-rewards">
           <div>2 supply signals/week</div>
           <div>1,000 high quality/week</div>
           <div>1 M249</div>
@@ -20,13 +20,13 @@ const Donate = () => (
           <div>Discord title</div>
         </div>
       </div>
-      <div className='donate-package'>
-        <div className='donate-package-header'>VIP</div>
-        <div className='usd'>
-          <img className='usd-symbol' src='usd.png' />
-          <div className='usd-text'>25</div>
+      <div className="donate-package">
+        <div className="donate-package-header">VIP</div>
+        <div className="usd">
+          <img className="usd-symbol" src="usd.png" />
+          <div className="usd-text">25</div>
         </div>
-        <div className='donate-package-rewards'>
+        <div className="donate-package-rewards">
           <div>4 supply signals/week</div>
           <div>2,500 high quality/week</div>
           <div>2 M249</div>
@@ -37,13 +37,13 @@ const Donate = () => (
           <div>Discord title</div>
         </div>
       </div>
-      <div className='donate-package'>
-        <div className='donate-package-header'>Elite</div>
-        <div className='usd'>
-          <img className='usd-symbol' src='usd.png' />
-          <div className='usd-text'>50</div>
+      <div className="donate-package">
+        <div className="donate-package-header">Elite</div>
+        <div className="usd">
+          <img className="usd-symbol" src="usd.png" />
+          <div className="usd-text">50</div>
         </div>
-        <div className='donate-package-rewards'>
+        <div className="donate-package-rewards">
           <div>6 supply signals/week</div>
           <div>5,000 high quality/week</div>
           <div>3 M249</div>
@@ -54,13 +54,13 @@ const Donate = () => (
           <div>Discord title</div>
         </div>
       </div>
-      <div className='donate-package'>
-        <div className='donate-package-header'>Legend</div>
-        <div className='usd'>
-          <img className='usd-symbol' src='usd.png' />
-          <div className='usd-text'>100</div>
+      <div className="donate-package">
+        <div className="donate-package-header">Legend</div>
+        <div className="usd">
+          <img className="usd-symbol" src="usd.png" />
+          <div className="usd-text">100</div>
         </div>
-        <div className='donate-package-rewards'>
+        <div className="donate-package-rewards">
           <div>8 supply signals/week</div>
           <div>10,000 high quality/week</div>
           <div>5 M249</div>

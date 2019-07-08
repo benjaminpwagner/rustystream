@@ -5,24 +5,21 @@ const Navbar = ({history, location}) => {
   const [showDonate, setDonate] = useState(false)
 
   const fixContent = () => {
-    if (location.pathname == '/')
-      setDonate(false)
-    if (location.pathname == '/donate')
-      setDonate(true)
+    if (location.pathname == '/') setDonate(false)
+    if (location.pathname == '/donate') setDonate(true)
 
     const bottom = document
       .getElementById('main-navbar')
-      .getBoundingClientRect()
-      .bottom
+      .getBoundingClientRect().bottom
 
     const homeContainer = document.getElementById('home-container')
     const donateContainer = document.getElementById('donate-container')
     const clientHeight = document.documentElement.clientHeight
     const clientWidth = document.documentElement.clientWidth
 
-    homeContainer.style.height = (clientHeight - bottom) + 'px'
+    homeContainer.style.height = clientHeight - bottom + 'px'
     homeContainer.style.top = bottom + 'px'
-    donateContainer.style.height = (clientHeight - bottom) + 'px'
+    donateContainer.style.height = clientHeight - bottom + 'px'
     donateContainer.style.top = bottom + 'px'
     homeContainer.style.left = (showDonate ? -clientWidth : 0) + 'px'
     donateContainer.style.left = (showDonate ? 0 : 2 * clientWidth) + 'px'
@@ -38,7 +35,8 @@ const Navbar = ({history, location}) => {
 
   return (
     <div id="main-navbar">
-      <div id="nav-logo"
+      <div
+        id="nav-logo"
         onClick={() => {
           setDonate(false)
           history.push('/')
@@ -56,7 +54,8 @@ const Navbar = ({history, location}) => {
           <img id="discord-logo" src="discord.png" />
         </a>
 
-        <div id="donate-button"
+        <div
+          id="donate-button"
           onClick={() => {
             setDonate(true)
             history.push('/donate')

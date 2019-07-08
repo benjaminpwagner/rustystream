@@ -6,7 +6,7 @@ const App = () => {
   return (
     <div id="main-app">
       <Navbar />
-      <div id='content-container'>
+      <div id="content-container">
         <Home />
         <Donate />
       </div>
