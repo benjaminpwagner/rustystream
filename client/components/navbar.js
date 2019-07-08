@@ -57,8 +57,8 @@ const Navbar = ({history, location}) => {
         <div
           id="donate-button"
           onClick={() => {
-            setDonate(true)
-            history.push('/donate')
+            // setDonate(true)
+            // history.push('/donate')
           }}
         >
           <img id="donate-logo" src="donate.png" />

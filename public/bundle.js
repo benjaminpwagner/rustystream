@@ -445,9 +445,8 @@ var Navbar = function Navbar(_ref) {
     src: "discord.png"
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     id: "donate-button",
-    onClick: function onClick() {
-      setDonate(true);
-      history.push('/donate');
+    onClick: function onClick() {// setDonate(true)
+      // history.push('/donate')
     }
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     id: "donate-logo",
