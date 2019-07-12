@@ -8,7 +8,7 @@ const Home = () => (
       constant worry of stream sniping and the hassle it brings for you and your
       viewers.
     </div>
-    <a href="steam://connect/198.46.235.162:43273" id="server-button">
+    <a href="steam://connect/104.194.10.152:28015" id="server-button">
       Direct Connect
     </a>
   </div>
