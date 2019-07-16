@@ -137,7 +137,7 @@ var Donate = function Donate() {
     className: "donate-content"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "donate-package-header"
-  }, "Donor"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, "Donor (1 month)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "usd"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "usd-symbol",
@@ -181,7 +181,7 @@ var Donate = function Donate() {
     className: "donate-content"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "donate-package-header"
-  }, "VIP"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, "VIP (1 month)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "usd"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "usd-symbol",
@@ -225,7 +225,7 @@ var Donate = function Donate() {
     className: "donate-content"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "donate-package-header"
-  }, "Elite"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, "Elite (Lifetime)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "usd"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "usd-symbol",
@@ -269,7 +269,7 @@ var Donate = function Donate() {
     className: "donate-content"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "donate-package-header"
-  }, "Legend"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, "Legend (Lifetime)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "usd"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "usd-symbol",
@@ -333,7 +333,7 @@ var Home = function Home() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     id: "home-mission-statement"
   }, "Rusty Stream is a 3x modded, streamer friendly server. It is our mission to create and inspire an atmosphere where you can stream without the constant worry of stream sniping and the hassle it brings for you and your viewers."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "steam://connect/198.46.235.162:43273",
+    href: "steam://connect/104.194.10.152:28015",
     id: "server-button"
   }, "Direct Connect"));
 };

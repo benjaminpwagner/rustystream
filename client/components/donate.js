@@ -6,7 +6,7 @@ const Donate = () => (
 
       <div className="donate-package">
         <div className='donate-content'>
-          <div className="donate-package-header">Donor</div>
+          <div className="donate-package-header">Donor (1 month)</div>
           <div className="usd">
             <img className="usd-symbol" src="usd.png" />
             <div className="usd-text">10</div>
@@ -35,7 +35,7 @@ const Donate = () => (
 
       <div className="donate-package">
         <div className='donate-content'>
-          <div className="donate-package-header">VIP</div>
+          <div className="donate-package-header">VIP (1 month)</div>
           <div className="usd">
             <img className="usd-symbol" src="usd.png" />
             <div className="usd-text">25</div>
@@ -64,7 +64,7 @@ const Donate = () => (
 
       <div className="donate-package">
         <div className='donate-content'>
-          <div className="donate-package-header">Elite</div>
+          <div className="donate-package-header">Elite (Lifetime)</div>
           <div className="usd">
             <img className="usd-symbol" src="usd.png" />
             <div className="usd-text">50</div>
@@ -94,7 +94,7 @@ const Donate = () => (
 
       <div className="donate-package">
         <div className='donate-content'>
-          <div className="donate-package-header">Legend</div>
+          <div className="donate-package-header">Legend (Lifetime)</div>
           <div className="usd">
             <img className="usd-symbol" src="usd.png" />
             <div className="usd-text">100</div>
