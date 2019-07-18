@@ -331,17 +331,36 @@ var Donate = function Donate() {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance"); }
+
+function _iterableToArrayLimit(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
 
 
 var Home = function Home() {
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(false),
+      _useState2 = _slicedToArray(_useState, 2),
+      connecting = _useState2[0],
+      tryConnect = _useState2[1];
+
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     id: "home-container"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     id: "home-mission-statement"
   }, "Rusty Stream is a 3x modded, streamer friendly server. It is our mission to create and inspire an atmosphere where you can stream without the constant worry of stream sniping and the hassle it brings for you and your viewers."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    onMouseEnter: function onMouseEnter() {
+      return tryConnect(true);
+    },
+    onMouseLeave: function onMouseLeave() {
+      return tryConnect(false);
+    },
     href: "steam://connect/104.194.10.152:28015",
     id: "server-button"
-  }, "Direct Connect"));
+  }, connecting ? 'close rust first' : 'Direct Connect'));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Home); // <img id='rust-logo' src='rust.png' />
