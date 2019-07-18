@@ -16,7 +16,7 @@ const Donate = () => (
             <div>1,000 high quality/week</div>
             <div>1 M249</div>
             <div>1 LR-300</div>
-            <div>1 Spas-12</div>
+            <div>1 L96</div>
             <div>500 scrap</div>
             <div>In-game title</div>
             <div>Discord title</div>
@@ -45,7 +45,7 @@ const Donate = () => (
             <div>2,500 high quality/week</div>
             <div>2 M249</div>
             <div>2 LR-300</div>
-            <div>2 Spas-12</div>
+            <div>2 L96</div>
             <div>1,000 scrap</div>
             <div>In-game title</div>
             <div>Discord title</div>
@@ -74,7 +74,7 @@ const Donate = () => (
             <div>5,000 high quality/week</div>
             <div>3 M249</div>
             <div>3 LR-300</div>
-            <div>4 Spas-12</div>
+            <div>3 L96</div>
             <div>2,000 scrap</div>
             <div>32 explosive rifle rounds</div>
             <div>In-game title</div>
@@ -104,7 +104,7 @@ const Donate = () => (
             <div>10,000 high quality/week</div>
             <div>5 M249</div>
             <div>5 LR-300</div>
-            <div>5 Spas-12</div>
+            <div>5 L96</div>
             <div>5,000 scrap</div>
             <div>64 explosive rifle rounds</div>
             <div>In-game title</div>

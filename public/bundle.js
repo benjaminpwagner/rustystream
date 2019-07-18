@@ -97,19 +97,25 @@
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components */ "./client/components/index.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components */ "./client/components/index.js");
+/* harmony import */ var _components_thanks__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/thanks */ "./client/components/thanks.js");
 
 
 
-var App = function App() {
+
+
+var App = function App(_ref) {
+  var location = _ref.location;
+  var thanks = location.pathname == '/thanks';
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     id: "main-app"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_1__["Navbar"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_2__["Navbar"], null), !thanks && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     id: "content-container"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_1__["Home"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_1__["Donate"], null)));
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_2__["Home"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_2__["Donate"], null)), thanks && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_thanks__WEBPACK_IMPORTED_MODULE_3__["default"], null));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (App);
+/* harmony default export */ __webpack_exports__["default"] = (Object(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["withRouter"])(App));
 
 /***/ }),
 
@@ -146,7 +152,7 @@ var Donate = function Donate() {
     className: "usd-text"
   }, "10")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "donate-package-rewards"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "2 supply signals/week"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "1,000 high quality/week"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "1 M249"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "1 LR-300"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "1 Spas-12"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "500 scrap"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "In-game title"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "Discord title"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "2 supply signals/week"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "1,000 high quality/week"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "1 M249"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "1 LR-300"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "1 L96"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "500 scrap"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "In-game title"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "Discord title"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "donate-buttons"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "https://www.paypalobjects.com/webstatic/mktg/logo/pp_cc_mark_37x23.jpg"
@@ -190,7 +196,7 @@ var Donate = function Donate() {
     className: "usd-text"
   }, "25")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "donate-package-rewards"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "4 supply signals/week"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "2,500 high quality/week"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "2 M249"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "2 LR-300"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "2 Spas-12"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "1,000 scrap"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "In-game title"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "Discord title"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "4 supply signals/week"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "2,500 high quality/week"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "2 M249"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "2 LR-300"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "2 L96"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "1,000 scrap"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "In-game title"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "Discord title"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "donate-buttons"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "https://www.paypalobjects.com/webstatic/mktg/logo/pp_cc_mark_37x23.jpg"
@@ -234,7 +240,7 @@ var Donate = function Donate() {
     className: "usd-text"
   }, "50")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "donate-package-rewards"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "6 supply signals/week"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "5,000 high quality/week"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "3 M249"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "3 LR-300"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "4 Spas-12"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "2,000 scrap"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "32 explosive rifle rounds"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "In-game title"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "Discord title"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "6 supply signals/week"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "5,000 high quality/week"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "3 M249"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "3 LR-300"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "3 L96"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "2,000 scrap"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "32 explosive rifle rounds"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "In-game title"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "Discord title"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "donate-buttons"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "https://www.paypalobjects.com/webstatic/mktg/logo/pp_cc_mark_37x23.jpg"
@@ -278,7 +284,7 @@ var Donate = function Donate() {
     className: "usd-text"
   }, "100")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "donate-package-rewards"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "8 supply signals/week"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "10,000 high quality/week"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "5 M249"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "5 LR-300"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "5 Spas-12"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "5,000 scrap"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "64 explosive rifle rounds"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "In-game title"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "Discord title"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "8 supply signals/week"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "10,000 high quality/week"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "5 M249"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "5 LR-300"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "5 L96"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "5,000 scrap"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "64 explosive rifle rounds"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "In-game title"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "Discord title"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "donate-buttons"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "https://www.paypalobjects.com/webstatic/mktg/logo/pp_cc_mark_37x23.jpg"
@@ -406,12 +412,15 @@ var Navbar = function Navbar(_ref) {
     var donateContainer = document.getElementById('donate-container');
     var clientHeight = document.documentElement.clientHeight;
     var clientWidth = document.documentElement.clientWidth;
-    homeContainer.style.height = clientHeight - bottom + 'px';
-    homeContainer.style.top = bottom + 'px';
-    donateContainer.style.height = clientHeight - bottom + 'px';
-    donateContainer.style.top = bottom + 'px';
-    homeContainer.style.left = (showDonate ? -clientWidth : 0) + 'px';
-    donateContainer.style.left = (showDonate ? 0 : 2 * clientWidth) + 'px';
+
+    if (homeContainer) {
+      homeContainer.style.height = clientHeight - bottom + 'px';
+      homeContainer.style.top = bottom + 'px';
+      donateContainer.style.height = clientHeight - bottom + 'px';
+      donateContainer.style.top = bottom + 'px';
+      homeContainer.style.left = (showDonate ? -clientWidth : 0) + 'px';
+      donateContainer.style.left = (showDonate ? 0 : 2 * clientWidth) + 'px';
+    }
   };
 
   Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
@@ -458,6 +467,37 @@ var Navbar = function Navbar(_ref) {
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Object(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["withRouter"])(Navbar));
+
+/***/ }),
+
+/***/ "./client/components/thanks.js":
+/*!*************************************!*\
+  !*** ./client/components/thanks.js ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+
+var Thanks = function Thanks() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    id: "content-container"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    id: "thanks-container"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "Thank you for supporting our server! It means a lot to our team that you support Rusty Stream, and we'd like to give you these gifts as thanks! Enjoy an assortment of supply signals, weaponry, and materials to help get you started or improve your base! You also recieve a special flair both in game and in the discord server! There are two steps to redeeming this kit."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "gap"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "1. Contact damp or Masterphart either on the discord or the server. If we are not around, send an email to admin@rustystream.com and let us know what email you donated with and the account name you wish to redeem the kit on."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "2. Once your account has been upgraded, you will have access to two kits, one is usable every 7 days, and the other is usable once per wipe. The kits can be redeemed in game by typing  \"/kit [tier]kit\" and \"/kit weekly[tier]\" like this:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "gap"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "ex."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "/kit legendkit"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "/kit weeklylegend"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "gap"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "With the exception of lifetime supporters, your bonuses will expire 30 days after donating. If you have the Elite lifetime package and wish to upgrade to an Ultimate tier, feel free to contact an admin, and you can upgrade your tier for $50! Thank you so much for supporting Rusty Stream, with much love from our admin team!")));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Thanks);
 
 /***/ }),
 

@@ -17,12 +17,14 @@ const Navbar = ({history, location}) => {
     const clientHeight = document.documentElement.clientHeight
     const clientWidth = document.documentElement.clientWidth
 
-    homeContainer.style.height = clientHeight - bottom + 'px'
-    homeContainer.style.top = bottom + 'px'
-    donateContainer.style.height = clientHeight - bottom + 'px'
-    donateContainer.style.top = bottom + 'px'
-    homeContainer.style.left = (showDonate ? -clientWidth : 0) + 'px'
-    donateContainer.style.left = (showDonate ? 0 : 2 * clientWidth) + 'px'
+    if (homeContainer) {
+      homeContainer.style.height = clientHeight - bottom + 'px'
+      homeContainer.style.top = bottom + 'px'
+      donateContainer.style.height = clientHeight - bottom + 'px'
+      donateContainer.style.top = bottom + 'px'
+      homeContainer.style.left = (showDonate ? -clientWidth : 0) + 'px'
+      donateContainer.style.left = (showDonate ? 0 : 2 * clientWidth) + 'px'
+    }
   }
 
   useEffect(() => {
